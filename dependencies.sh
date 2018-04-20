@@ -11,8 +11,8 @@ mkdir  -p vendor/js
 
 cp -r bower_components/bootstrap/dist/js/* vendor/js
 # cp -r bower_components/bootstrap/dist/fonts/* vendor/fonts
-wget -P vendor/css https://bootswatch.com/readable/bootstrap.min.css
-wget -P vendor/css https://bootswatch.com/readable/bootstrap.css
+wget -P vendor/css https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+wget -P vendor/css https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css
 
 cp -r bower_components/academicons/css/* vendor/css
 cp -r bower_components/academicons/fonts/* vendor/fonts
