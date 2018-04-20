@@ -1,0 +1,26 @@
+{
+  "name": "sidkuma24.github.io",
+  "authors": [
+    "sidkuma24 <sidkuma24@gmail.com>"
+  ],
+  "description": "personal website",
+  "main": "index.md",
+  "license": "MIT",
+  "homepage": "sidkuma24.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "academicons": "^1.8.6",
+    "bootstrap": "^4.1.0",
+    "font-awesome": "^5.0.10",
+    "jquery": "^3.3.1",
+    "pygments": "^2.1.3",
+    "jquery.toc": "^0.4.0"
+  }
+}

@@ -1,0 +1,7 @@
+_site
+.sass-cache
+.jekyll-metadata
+_posts/TODO
+_posts/ideas
+*.swp
+bower_componenets/
