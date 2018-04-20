@@ -8,6 +8,20 @@ title: Siddharth Kumar
 
 {% include CV.md %}
 
+## Recent Projects
+
+<table class="table table-hover">
+  {% for post in site.posts limit: 5 %}
+    {% unless post.draft %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+      <td class="col-md-3" style="text-align: right;">{{ post.date | date: "%B %e, %Y" }}</td>
+    </tr>
+    {% endunless %}
+  {% endfor %}
+</table>
+<h4><a href="/projects">View all</a></h4>
+
 ## Recent Blog Posts
 
 <table class="table table-hover">
