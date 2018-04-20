@@ -11,14 +11,15 @@ title: Siddharth Kumar
 ## Recent Projects
 
 <table class="table table-hover">
-  {% for post in site.posts limit: 5 %}
-    {% unless post.draft %}
-    <tr>
-      <td><a href="{{ post.url }}">{{ post.title }}</a></td>
-      <td class="col-md-3" style="text-align: right;">{{ post.date | date: "%B %e, %Y" }}</td>
-    </tr>
-    {% endunless %}
-  {% endfor %}
+	<tr>
+	  <td><a href="/projects/flight-paths/index.html" target="_blank">3D FLight Paths on WebGL globe</a></td>
+	</tr>
+	<tr>
+	  <td><a href="https://github.com/sidkuma24/seq_gen" target="_blank">Sequence Generation Using LSTMs</a></td>
+	</tr>
+	<tr>
+	  <td><a href="https://github.com/sidkuma24/movie-recommender" target="_blank">Movie Recommendation System</a></td>
+	</tr>
 </table>
 <h4><a href="/projects">View all</a></h4>
 
