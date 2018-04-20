@@ -5,34 +5,19 @@ I currently working on using very deep residual networks for image classificatio
 
 <table class="table table-hover">
   <tr>
-    <td class="col-md-3">Aug 2014 - Present</td>
+    <td class="col-md-3">Aug 2017 - Present</td>
     <td>
-        <strong>Ph.D. in Computer Science</strong>
+        <strong>M.S. in Computer Science</strong>
         <br>
-      Carnegie Mellon University
+      San Jose State University
     </td>
   </tr>
   <tr>
     <td class="col-md-3">Aug 2014 - May 2016</td>
     <td>
-        <strong>M.S. in Computer Science</strong>
+        <strong>B.E. in Computer Science and Technology</strong>
         <br>
-      Carnegie Mellon University
-    </td>
-  </tr>
-  <tr>
-    <td class="col-md-3">Aug 2011 - May 2014</td>
-    <td>
-        <strong>B.S. in Computer Science</strong>
-          (3.99/4.00)
-        <br>
-      Virginia Tech
-    </td>
-  </tr>
-  <tr>
-    <td class="col-md-3">May 2011</td>
-    <td>
-      Northside High School (Roanoke, Virginia)
+      Indian Institute of Engineering Science and Technology, Shibpur
     </td>
   </tr>
 </table>
