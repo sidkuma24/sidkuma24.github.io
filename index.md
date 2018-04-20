@@ -8,7 +8,7 @@ title: Siddharth Kumar
 
 {% include CV.md %}
 
-## Recent Projects
+## <i class="fa fa-chevron-right"></i> Recent Projects
 
 <table class="table table-hover">
 	<tr>
@@ -23,7 +23,7 @@ title: Siddharth Kumar
 </table>
 <h4><a href="/projects">View all</a></h4>
 
-## Recent Blog Posts
+## <i class="fa fa-chevron-right"></i> Recent Blog Posts
 
 <table class="table table-hover">
   {% for post in site.posts limit: 5 %}
