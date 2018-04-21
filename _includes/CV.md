@@ -59,8 +59,8 @@ Mentored new team members in JavaScript and Java technologies. </li>
 <div id="iitp_info" style="text-align: justify; display: none" markdown="1">
 <ul>
 <li>Created an aspect-based sentiment classifier for online user reviews. More fine-grained sentiment analysis, giving the review for each aspect in a review. </li>
-<li>Trained models for automatic extraction and classification of aspect terms and sentiments using Conditional Random Field (CRF) and Support Vector Machines (SVM)..</li>
-<li>Performed experiments on the benchmark dataset SemEval 2014 to measure extraction andclassification accuracy of the model. </li>
+<li>Trained models for automatic extraction and classification of aspect terms and sentiments using Conditional Random Field (CRF) and Support Vector Machines (SVM).</li>
+<li>Performed experiments on the benchmark dataset SemEval 2014 to measure extraction and classification accuracy of the model. </li>
 </ul>
 <strong><i>
   Technologies: Java, Shell Scripting, Python, Machine Learning, Support Vector Machines.

@@ -6,7 +6,10 @@ title: "Projects"
 # Projects
 <table class="table table-hover">
 	<tr>
-	  <td><a href="/projects/flight-paths/index.html" target="_blank">3D FLight Paths on WebGL globe</a></td>
+	  <td><a href="https://github.com/sidkuma24/object-detection" target="_blank">Real-time Object Detection Using Faster R-CNNs</a></td>
+	</tr>
+	<tr>
+	  <td><a href="https://github.com/sidkuma24/flight-paths" target="_blank">3D FLight Paths on WebGL globe</a></td>
 	</tr>
 	<tr>
 	  <td><a href="https://github.com/sidkuma24/seq_gen" target="_blank">Sequence Generation Using LSTMs</a></td>
