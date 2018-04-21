@@ -21,60 +21,47 @@
   
 </head>
 <body>
-	<div class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-			<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="navbar-header">
-						  <a href="/" class="navbar-brand">
-                  <div>
-                      <!-- <img src="/images/me-face.png" class="img-circle"></img> -->
-                      Siddharth Kumar
-                  </div>
-              </a>
-						<button class="navbar-toggle" type="button" data-toggle="collapse"
-                    data-target="#navbar-main">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
-					<div class="navbar-collapse collapse" id="navbar-main">
-						<ul class="nav navbar-nav">
-							<li>
-								<a href="/">About</a>
-							</li>
-							<li>
-								<a href="/blog/">Blog</a>
-							</li>
-							<li>
-								<a href="/projects/">Projects</a>
-							</li>
-						</ul>
-						<ul class="nav navbar-nav navbar-right" style="font-size: 1.5em">
-							<li>
-								<a href="http://github.com/sidkuma24" target="_blank">
-									<i class="fa fa-lg fa-github"></i></a>
-							</li>
-							<li>
-								<a href="https://www.linkedin.com/in/siddharthkumar24/" target="_blank">
-									<i class="fa fa-lg fa-linkedin"></i></a>
-							</li>
-							<li>
-								<a href="https://www.facebook.com/sidkuma24" target="_blank">
-									<i class="fa fa-lg fa-facebook"></i></a>
-							</li>
-             
-              <!-- <li>
-                  <a href="/atom.xml" target="_blank">
-                      <i class="fa fa-rss"></i></a>
-              </li> -->
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/" style="font-size: 1.5em">Siddharth Kumar</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/">About</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/projects">Projects</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right" style="font-size: 1.5em">
+            <li>
+			    <a href="http://github.com/sidkuma24" target="_blank">
+			    <i class="fa fa-lg fa-github"></i></a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/siddharthkumar24/" target="_blank">
+					<i class="fa fa-lg fa-linkedin"></i>
+				</a>
+			</li>
+			<li>
+			<a href="https://www.facebook.com/sidkuma24" target="_blank">
+				<i class="fa fa-lg fa-facebook"></i></a>
+			</li>
+          </ul>
+        </div><!--/.nav-collapse -->
+    	</div>
+       </div>
+      </div>
+    </nav>
+
 
   {{ content }}
 
