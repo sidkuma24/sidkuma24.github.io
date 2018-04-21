@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Wide Residual Networks"
+title:  "Deep Residual Networks"
 date:   2018-04-20 
 categories: [Deep Learning, Object-detection, Python]
 comments : true

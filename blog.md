@@ -5,16 +5,18 @@ title: "Blog Posts"
 
 # Blog Posts
 
-<table class="table table-hover">
+<div>
   {% for post in site.posts %}
     {% unless post.draft %}
+    <table class="table table-hover">
     <tr>
       <td><a href="{{ post.url }}">{{ post.title }}</a></td>
       <td class="col-md-3" style="text-align: right;">{{ post.date | date: "%B %e, %Y" }}</td>
     </tr>
+    </table>
     {% endunless %}
   {% endfor %}
-</table>
+</div>
 
 <h2>Categories</h2>
 <ul>
