@@ -22,7 +22,7 @@ title: Siddharth Kumar
 	</tr>
 </table>
 <h4><a href="/projects">View all</a></h4>
-
+<br>
 ## <i class="fa fa-chevron-right"></i> Recent Blog Posts
 
 <table class="table table-hover">
