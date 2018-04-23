@@ -21,6 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   and natural language processing.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "sidkuma24.github.com" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: sidkuma24
 github_username:  sikduma24
 
@@ -29,15 +30,23 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# future: true
+# kramdown:
+#   parse_block_html: true
+#   syntax_highlighter: rouge
+# permalink: pretty
+#paginate: 5
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - bower_components
+  - .travis.yml

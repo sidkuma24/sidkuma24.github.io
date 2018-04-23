@@ -3,6 +3,8 @@ layout: home
 title: Siddharth Kumar
 ---
 
+---
+
 {% include CV.md %}
 
 ## <i class="fa fa-chevron-right"></i> Recent Projects
@@ -23,6 +25,7 @@ title: Siddharth Kumar
 </table>
 <h4><a href="/projects">View all</a></h4>
 <br>
+
 ## <i class="fa fa-chevron-right"></i> Recent Blog Posts
 
 <table class="table table-hover">
@@ -36,3 +39,7 @@ title: Siddharth Kumar
   {% endfor %}
 </table>
 <h4><a href="/blog">View all</a></h4>
+
+---
+
+Last updated on {% include last-updated.txt %}
