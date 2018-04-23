@@ -73,13 +73,13 @@ I currently working on using very deep residual networks for image classificatio
 <tr>
   <td class='col-md-2'>Languages</td>
   <td markdown="1">
-C, C++, Fortran, Haskell, Java, Lua, Make, *Mathematica*, Python, R, Scala
+C, C++, Java, JavaScript, Python, R, Scala, HTML, CSS
   </td>
 </tr>
 <tr>
   <td class='col-md-2'>Frameworks</td>
   <td markdown="1">
-Akka, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
+Spring MVC, Angular.js, Node.js, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
   </td>
 </tr>
 <tr>
