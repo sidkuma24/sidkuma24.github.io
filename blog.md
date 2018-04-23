@@ -41,7 +41,7 @@ title: "Blog Posts"
     {% for post in pages_list %}
       {% if post.title != null %}
       {% if group == null or group == post.group %}
-      <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
       {% endif %}
     {% endfor %}
