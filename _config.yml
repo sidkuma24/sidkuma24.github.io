@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Siddharth Kumar
+title: Siddharth Kumar - Portfolio and Blog 
 email: sidkuma24@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A website that contains my blogs and my projects and research
@@ -21,6 +21,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   and natural language processing.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "sidkuma24.github.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: Siddharth Kumar # add your name
+author-pic: 
+about-author: I am a 2nd Semester Computer Science Masters Student at San Jose State University. I have spent most of my time here building web application using JavaScript and applying deep learning in my projects.
+
+
 
 twitter_username: sidkuma24
 github_username:  sikduma24

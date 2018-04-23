@@ -1,5 +1,18 @@
+a {
+    color: #0055A2;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+
 body {
-    padding-top: 70px;
+    padding-top: 80px;
 }
 
 h1 {
