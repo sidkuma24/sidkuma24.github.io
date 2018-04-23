@@ -38,8 +38,8 @@ I currently working on using very deep residual networks for image classificatio
 <ul>
 <li>Enhanced and maintained web-application suites using various technologies including backend modifications and other fixes. </li>
 <li>Designed scripts for automated reporting of product data using Python and Shell scripting, drastically reduced the time needed for generating reports previously completed manually.</li>
-<li>Contributed to the development of Accenture Automatic Ticket Resolver, aimed at reducing the average issue resolution time to 2 hours
-Mentored new team members in JavaScript and Java technologies. </li>
+<li>Contributed to the development of Accenture Automatic Ticket Resolver, aimed at reducing the average issue resolution time to 2 hours</li>
+<li>Mentored new team members in JavaScript and Java technologies. </li>
 </ul>
 <strong><i>
   Technologies:  Java, JavaScript, Angular JS, JQuery, Shell Scripting, Python, Maven, PL/SQL, RESTFul web services
@@ -68,3 +68,24 @@ Mentored new team members in JavaScript and Java technologies. </li>
 </div>
 
 
+## <i class="fa fa-chevron-right"></i> Skills
+<table class="table table-hover">
+<tr>
+  <td class='col-md-2'>Languages</td>
+  <td markdown="1">
+C, C++, Fortran, Haskell, Java, Lua, Make, *Mathematica*, Python, R, Scala
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Frameworks</td>
+  <td markdown="1">
+Akka, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Systems</td>
+  <td markdown="1">
+Linux, OSX
+  </td>
+</tr>
+</table>
