@@ -79,13 +79,42 @@ C, C++, Java, JavaScript, Python, R, Scala, HTML, CSS
 <tr>
   <td class='col-md-2'>Frameworks</td>
   <td markdown="1">
-Spring MVC, Angular.js, Node.js, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
+   ReactJS, Redux, Express.js, Bootstrap, REST, Web Services, Node.js, NumPy, Pandas, Keras, PyTorch, SciPy, TensorFlow, Torch.
   </td>
 </tr>
 <tr>
-  <td class='col-md-2'>Systems</td>
+  <td class='col-md-2'>Databases</td>
+  <td markdown="1">
+   PL/SQL, MySQL, MongoDB(NoSQL)
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Cloud</td>
+  <td markdown="1">
+   AWS, GCP, Docker
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Tools & IDEs</td>
+  <td markdown="1">
+   Apache Maven, Jenkins, Grunt, Git, Eclipse, Android Studio, PyCharm, 
+  </td>
+</tr>
+
+<tr>
+  <td class='col-md-2'>Operating Systems</td>
   <td markdown="1">
 Linux, OSX
   </td>
 </tr>
 </table>
+
+## <i class="fa fa-chevron-right"></i> Graduate Coursework
+
+  + CS256 Topics in AI
+  + CS235 User Interface Design
+  + CS185 Solving Big Data Problems
+  + CS267 Distributed Systems
+  + CS267 Topics in Databases
+  + CS218 Topics in Cloud Computing
+  + CS252 Advanced Programming Language Principles
