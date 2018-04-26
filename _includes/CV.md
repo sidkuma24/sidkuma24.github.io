@@ -1,5 +1,5 @@
-I am a 2nd Semester Computer Science Masters Student at San Jose State University. I have spent most of my time here building web application using JavaScript and applying deep learning in my projects. I have hands-on experience developing enterpise level web applications written in Java. 
-I am also interested in building machine learning models for solving problems in computer vision and natural language processing. 
+I am a 2nd Semester Computer Science Masters Student at San Jose State University. I have spent most of my time here building web application using JavaScript and applying deep learning in my projects. I have hands-on experience developing enterprise level web applications written in Java. 
+I am also interested in building deep learning models for solving problems in computer vision and natural language processing, using CNNs, RNNs and GANs.
 I currently working on using very deep residual networks for image classification and object recongition.<br><br>
 
 ## <i class="fa fa-chevron-right"></i> Education

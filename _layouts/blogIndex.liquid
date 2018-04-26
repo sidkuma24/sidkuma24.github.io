@@ -4,10 +4,9 @@
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
 
-  <meta name="author" content="{{ site.name }}" />
+  <meta name="author" content="{{ site.author }}" />
   <meta name="description" content="{{ site.description }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <!-- <link rel="alternate" type="application/rss+xml" href="/atom.xml" /> -->
   <link href="/vendor/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
@@ -33,7 +32,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   
 </head>
-<body>
+<body >
   
 	<!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #24292e">
@@ -75,9 +74,49 @@
        </div>
       </div>
     </nav>
+<!-- <div class="col-md-10 col-md-offset-1"> -->
 
-
+ <br/>
+<div class="container">
+<div class="row">
+<div class="col-md-10">
   {{ content }}
+</div>
+<div class="col-md-2">
+<h4>Categories</h4>
+
+<ul style="margin-left:-20px;">
+{% assign categories_list = site.categories %}
+  {% if categories_list.first[0] == null %}
+    {% for category in categories_list %}
+      <li><a href="#{{ category }}">{{ category | capitalize }} ({{ site.tags[category].size }})</a></li>
+    {% endfor %}
+  {% else %}
+    {% for category in categories_list %}
+      <li><a href="#{{ tag[0] }}">{{ category[0] | capitalize }} ({{ category[1].size }})</a></li>
+    {% endfor %}
+  {% endif %}
+{% assign categories_list = nil %}
+</ul>
+
+{% for tag in site.categories %}
+  <h5 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h5>
+  <ul style="margin-left:-20px;">
+    {% assign pages_list = tag[1] %}
+    {% for post in pages_list %}
+      {% if post.title != null %}
+      {% if group == null or group == post.group %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+      {% endif %}
+    {% endfor %}
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+  </ul>
+{% endfor %}
+</div>
+</div>
+</div>
 
 <!-- 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -91,17 +130,6 @@
    });
 </script>
 <script id="dsq-count-scr" src="//sidkuma24-github-io.disqus.com/count.js" async></script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118277671-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-118277671-1');
-</script>
-
 </body>
 
 </html>
