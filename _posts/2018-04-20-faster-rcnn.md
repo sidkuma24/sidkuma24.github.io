@@ -1,6 +1,6 @@
 ---
 layout: post
-
+title:  "Real-time Object Detection Using Faster R-CNNs"
 date:   2018-04-20 
 categories: [Deep Learning, Object-detection, Python]
 comments : true
@@ -102,9 +102,10 @@ Some of the proposal are highly overlapping, to reduce this redundancy, a the te
 
  [2] Ren, Shaoqing, et al. "Faster r-cnn: Towards real-time object detection with region proposal networks." Advances in neural information processing systems. 2015.
 
- [3] Scalable, High-Quality Object Detection  
+ [3] Scalable, High-Quality Object Detection 
 
-[paper]: https://arxiv.org/abs/1506.01497
-[code]:  https://github.com/ShaoqingRen/faster_rcnn
+## Useful Links 
+Paper: https://arxiv.org/abs/1506.01497<br>
+Official repo:  https://github.com/ShaoqingRen/faster_rcnn
 
 ---
