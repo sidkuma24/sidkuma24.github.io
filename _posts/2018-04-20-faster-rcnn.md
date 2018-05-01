@@ -105,7 +105,8 @@ Some of the proposal are highly overlapping, to reduce this redundancy, a the te
  [3] Scalable, High-Quality Object Detection 
 
 ## Useful Links 
-Paper: https://arxiv.org/abs/1506.01497<br>
-Official repo:  https://github.com/ShaoqingRen/faster_rcnn
+Paper: <a href="https://arxiv.org/abs/1506.01497" target="_blank">https://arxiv.org/abs/1506.01497</a>
+	<br>
+Official repo:  <a href="https://arxiv.org/abs/1506.01497" target="_blank">https://github.com/ShaoqingRen/faster_rcnn</a>
 
 ---
