@@ -13,7 +13,5 @@ title: "Blog Index"
       <td class="col-md-3" style="text-align: right;">{{ post.date | date: "%B %e, %Y" }}</td>
     </tr>
     </table> 
-    <div><p></p></div>
-
   {% endfor %}
 </div>
