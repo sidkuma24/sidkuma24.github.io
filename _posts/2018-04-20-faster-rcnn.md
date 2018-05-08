@@ -24,7 +24,7 @@ MathJax.Hub.Config({
 
 ## Introduction
 
-In this post we will talk about the object detection system using Faster R-CNN propsoed by _Ren et. al._ in 2015. Faster R-CNNs are made up of two modules. The first one is a fully convolutional network called the Region Proposal Network (**RPN**) and the second module is the Fast R-CNN detector that uses the proposed regions for classification. The entire system is one single combined system for object detection. The RPN module tell the R-CNN where to look. The following figure shows the Faster R-CNN.
+In this post we will talk about the object detection system using Faster R-CNN proposed by _Ren et. al._ in 2015. Faster R-CNNs are made up of two modules. The first one is a fully convolutional network called the Region Proposal Network (**RPN**) and the second module is the Fast R-CNN detector that uses the proposed regions for classification. The entire system is one single combined system for object detection. The RPN module tells the R-CNN where to look. The following figure shows the Faster R-CNN.
 
 {% include image.html
    img="/data/faster-r-cnn/images/faster-r-cnn-model.jpg"
