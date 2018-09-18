@@ -1,10 +1,14 @@
-I am a 2nd Semester Computer Science Masters Student at San Jose State University. I have spent most of my time here building web applications using JavaScript and applying deep learning in my projects. I have hands-on experience developing enterprise level web applications written in Java. I am also interested in building deep learning models for solving problems in computer vision and natural language processing, using CNNs, RNNs and GANs. I currently working on using very deep residual networks for image classification and object recognition.<br><br>
+I am a Computer Science masters student, currently working as a Full-stack developer using AngularJS, Java, Springboot, NodeJS and MongoDB. I work mostly on adding new services and features to the platform along with enhancements and optimizations on some of the existing features, to make them more powerful and easy to use. 
+As a part of my graduate thesis, I am currently working on real-time object recognition using deep neural networks. Where I am working on the current state-of-the-art to find ways to improve detection time high-resolution images and videos.
+In the past, I have worked on projects related to Sentiment analysis and speech synthesis using deep neural networks.
+
+<br><br>
 
 ## <i class="fa fa-chevron-right"></i> Education
 
 <table class="table table-hover">
   <tr>
-    <td class="col-md-3">Aug 2017 - Present</td>
+    <td class="col-md-3">Aug 2017 - May 2019 (Expt.)</td>
     <td>
         <strong>M.S. in Computer Science</strong>
         <br>
@@ -24,6 +28,27 @@ I am a 2nd Semester Computer Science Masters Student at San Jose State Universit
 
 ## <i class="fa fa-chevron-right"></i> Work Experience
 
+<table class="table table-hover">
+  <tr>
+    <td class='col-md-3'>June 2017 - Present</td> 
+    <td><a href='javascript: none' onclick='$("#accenture_info").toggle()'><strong> Accenture</strong>, Application Developer</a> </td>
+   </tr>
+</table>
+
+<div id="accenture_info" style="text-align: justify; display: none" markdown="1">
+<ul>
+<li>Developed REST endpoints for several new features in the platforms latest release, making a range of useful features available
+to the customers </li>
+<li>Migrated the Solr dependencies to Postgres to improve application availability and maintainability, reducing memory usage by
+almost 20%</li>
+<li>Optimized the VM provisioning by integrating Redis in-memory caching, substantially speeding up the data intensive operations</li>
+<li>Integrated machine learning based VM recommendation engine to the platform, makes VM configuration recommendations
+based on user requirements, reducing the usage cost</li>
+</ul>
+<strong><i>
+  Technologies:  Java, Springboot, Gradle, JavaScript, Angular JS, Python, PostgreSQL, RESTFul web services
+</i></strong><br>
+</div>
 
 <table class="table table-hover">
   <tr>
