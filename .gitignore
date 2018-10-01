@@ -5,5 +5,7 @@ bower_components/
 _posts/TODO
 _posts/ideas
 *.swp
+REST
+node_modules
 
 
