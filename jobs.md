@@ -30,5 +30,10 @@ title: "Job Applications"
 		<td>Machine Learning Eng Amazon AI</td>
 		<td> 683824 </td>
 		<td><a href="data/resumes/KumarSiddharthResume-ML-Eng-Amzon-AI-683824.pdf" >Download Resume</a></td>
-		</tr>
+	</tr>
+	<tr>
+		<td>Software Development Engineer, Amazon Alexa</td>
+		<td> 698144 </td>
+		<td><a href="data/resumes/KumarSiddharthResume-SDE-Alexa-698144.pdf" >Download Resume</a></td>
+	</tr>
 </table> 
