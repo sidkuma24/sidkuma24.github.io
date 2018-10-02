@@ -58,8 +58,23 @@
 }();
 drift.SNIPPET_VERSION = '0.3.1';
 drift.load('xe5kgw3aymui');
+
+
 </script>
 <!-- End of Async Drift Code -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script type="text/javascript">
+  var app = angular.module("jobsList",[]);
+  app.controller("jobsListController", function($scope) {
+    $scope.jobs = {
+      "Company" : "Amazon",
+      "Job ID" : "001001",
+      "Job Title" : "SDE",
+
+    }
+  });
+</script>
   
 </head>
 <body>
