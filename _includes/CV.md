@@ -53,7 +53,7 @@ based on user requirements, reducing the usage cost</li>
 <table class="table table-hover">
   <tr>
     <td class='col-md-3'>Aug 2016 - May 2017</td> 
-    <td><a href='javascript: none' onclick='$("#accenture_info").toggle()'><strong> Accenture</strong>, Application Developer</a> </td>
+    <td><a href='javascript: none' onclick='$("#accenture_info").toggle()'><strong> Hypergrid Inc.</strong>, Full-Stack Intern</a> </td>
    </tr>
 </table>
 
