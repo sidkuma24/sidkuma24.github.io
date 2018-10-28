@@ -35,4 +35,4 @@ gem 'jekyll-sitemap', group: :jekyll_plugins
 gem 'colorize', '0.8.1'
 gem 'github-pages'
 gem "rake"
-ruby "2.4.2"
+ruby "2.5.3"
